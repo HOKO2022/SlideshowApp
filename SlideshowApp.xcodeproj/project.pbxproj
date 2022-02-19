@@ -13,6 +13,12 @@
 		E901789927BFDB8E0069FA97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E901789727BFDB8E0069FA97 /* Main.storyboard */; };
 		E901789B27BFDB8F0069FA97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E901789A27BFDB8F0069FA97 /* Assets.xcassets */; };
 		E901789E27BFDB8F0069FA97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E901789C27BFDB8F0069FA97 /* LaunchScreen.storyboard */; };
+		E90178A627BFE1550069FA97 /* image1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E90178A527BFE1550069FA97 /* image1.jpeg */; };
+		E90178A827BFE15D0069FA97 /* image2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E90178A727BFE15D0069FA97 /* image2.jpeg */; };
+		E90178AA27BFE1620069FA97 /* image3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E90178A927BFE1620069FA97 /* image3.jpeg */; };
+		E90178AC27BFE61B0069FA97 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90178AB27BFE61B0069FA97 /* ImageViewController.swift */; };
+		E90178AE27C0D2970069FA97 /* image4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E90178AD27C0D2970069FA97 /* image4.jpeg */; };
+		E90178B027C0D29B0069FA97 /* image5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E90178AF27C0D29B0069FA97 /* image5.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		E901789A27BFDB8F0069FA97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E901789D27BFDB8F0069FA97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E901789F27BFDB8F0069FA97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E90178A527BFE1550069FA97 /* image1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpeg; sourceTree = "<group>"; };
+		E90178A727BFE15D0069FA97 /* image2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpeg; sourceTree = "<group>"; };
+		E90178A927BFE1620069FA97 /* image3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpeg; sourceTree = "<group>"; };
+		E90178AB27BFE61B0069FA97 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		E90178AD27C0D2970069FA97 /* image4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpeg; sourceTree = "<group>"; };
+		E90178AF27C0D29B0069FA97 /* image5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +71,16 @@
 				E901789127BFDB8E0069FA97 /* AppDelegate.swift */,
 				E901789327BFDB8E0069FA97 /* SceneDelegate.swift */,
 				E901789527BFDB8E0069FA97 /* ViewController.swift */,
+				E90178AB27BFE61B0069FA97 /* ImageViewController.swift */,
 				E901789727BFDB8E0069FA97 /* Main.storyboard */,
 				E901789A27BFDB8F0069FA97 /* Assets.xcassets */,
 				E901789C27BFDB8F0069FA97 /* LaunchScreen.storyboard */,
 				E901789F27BFDB8F0069FA97 /* Info.plist */,
+				E90178A527BFE1550069FA97 /* image1.jpeg */,
+				E90178A727BFE15D0069FA97 /* image2.jpeg */,
+				E90178A927BFE1620069FA97 /* image3.jpeg */,
+				E90178AD27C0D2970069FA97 /* image4.jpeg */,
+				E90178AF27C0D29B0069FA97 /* image5.jpeg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -126,8 +144,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E901789E27BFDB8F0069FA97 /* LaunchScreen.storyboard in Resources */,
+				E90178A827BFE15D0069FA97 /* image2.jpeg in Resources */,
 				E901789B27BFDB8F0069FA97 /* Assets.xcassets in Resources */,
+				E90178AE27C0D2970069FA97 /* image4.jpeg in Resources */,
 				E901789927BFDB8E0069FA97 /* Main.storyboard in Resources */,
+				E90178A627BFE1550069FA97 /* image1.jpeg in Resources */,
+				E90178AA27BFE1620069FA97 /* image3.jpeg in Resources */,
+				E90178B027C0D29B0069FA97 /* image5.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +163,7 @@
 			files = (
 				E901789627BFDB8E0069FA97 /* ViewController.swift in Sources */,
 				E901789227BFDB8E0069FA97 /* AppDelegate.swift in Sources */,
+				E90178AC27BFE61B0069FA97 /* ImageViewController.swift in Sources */,
 				E901789427BFDB8E0069FA97 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
